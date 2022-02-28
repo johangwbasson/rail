@@ -1,10 +1,10 @@
-# rail
+package net.johanbasson.rail;
 
-Java based Railway Oriented Programming based on this video by Scott Wlaschin : https://fsharpforfunandprofit.com/rop/
+import com.google.common.collect.ImmutableSet;
 
-Example:
-
-```java
+import java.util.Objects;
+import java.util.Set;
+import java.util.UUID;
 
 public class Example {
 
@@ -167,4 +167,3 @@ public class Example {
         }
     }
 }
-```
